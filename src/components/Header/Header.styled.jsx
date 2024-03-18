@@ -9,9 +9,9 @@ export const HeaderContainer = styled.div`
 export const InnerContainer = styled.div`
   height: 56px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 `;
-
-export const Navigation = styled.nav``;
 
 export const StyledLink = styled(Link)`
   text-decoration: none;
@@ -25,7 +25,10 @@ export const Logo = styled.svg`
   width: 40px;
   height: 40px;
 `;
-
+export const SiteNav = styled.ul`
+  display: flex;
+  gap: 32px;
+`;
 export const LogoText = styled.p`
   font-size: 20px;
   line-height: 1.2;
@@ -34,8 +37,6 @@ export const LogoText = styled.p`
   color: var(--primary-black);
 `;
 export const Anchor = styled.a`
-  font-size: 20px;
-  line-height: 1.2;
   display: inline-block;
   font-weight: 600;
   color: var(--primary-black);

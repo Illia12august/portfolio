@@ -4,7 +4,7 @@ import {
   InnerContainer,
   Logo,
   LogoText,
-  Navigation,
+  SiteNav,
   StyledLink,
 } from './Header.styled';
 import sprite from 'assets/sprite.svg';
@@ -20,12 +20,12 @@ export const Header = () => {
           <LogoText>Personal</LogoText>
         </StyledLink>
 
-        <Navigation>
-          <Anchor></Anchor>
-          <Anchor></Anchor>
-          <Anchor></Anchor>
-          <Anchor></Anchor>
-        </Navigation>
+        <SiteNav>
+          <Anchor>About Me</Anchor>
+          <Anchor>Skills</Anchor>
+          <Anchor>Project</Anchor>
+          <Anchor>Contact me</Anchor>
+        </SiteNav>
       </InnerContainer>
     </HeaderContainer>
   );
